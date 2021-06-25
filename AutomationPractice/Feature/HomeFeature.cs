@@ -30,9 +30,7 @@ namespace AutomationPractice.Feature
             PaymentSteps.FormaDePagamentoCheck();
             PaymentSteps.FinalizarCompra();
             HomePageSteps.ContaLogada();
-            MyAccountSteps.AcessarHistoricoDecompras();
-            MyAccountSteps.VoltarParaHomePage();
-            
+            MyAccountSteps.AcessarHistoricoDecompras();           
 
         }
         public static IEnumerable<object[]> DadosDoCliente()
